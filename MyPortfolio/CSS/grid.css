@@ -1,0 +1,37 @@
+.site{
+    display: grid;
+    align-content: start;
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows:  100px 100 px repeat(2 ,1fr) 100px;
+    grid-template-areas: 
+    "nav nav nav"
+    "title title title"
+    "main main main"    
+    "main main main"
+    "footer footer footer";
+    grid-gap:0.2em;
+}
+
+.navbar{
+    grid-area: nav;
+    
+}
+
+
+.page-title{
+    grid-area: title;
+    padding: 0px 10px;
+}
+
+.main-content{
+    grid-area: main;
+    padding: 0px 10px;
+}
+
+
+
+.footer-content{
+    grid-area: footer;
+    padding: 0px 10px;
+}
+

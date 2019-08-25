@@ -1,0 +1,28 @@
+
+/*--------------------------------------------------------------
+Grid default styling
+--------------------------------------------------------------*/
+ main, footer, div, h1,h2, p {
+padding: 0.5em;
+}
+
+.site  {
+    margin:  1em;
+    float: left;
+    width: auto;
+}
+
+.page-title {
+    background-color: #51a7fa;
+}
+
+.main-content {
+    background-color: #70bf40;
+}
+
+
+.footer-content {
+    background-color:  #404040;
+}
+
+

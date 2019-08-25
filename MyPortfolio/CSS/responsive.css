@@ -1,0 +1,129 @@
+
+.footer-content{
+    color : white;
+}
+
+.centered {
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+
+.page-title{
+    max-height: 100px;
+}
+.footer-content{
+    max-height: 100px;
+}
+
+@media screen and (max-width: 368px) {
+ 
+    #myHome {
+
+
+
+        width: 370px;
+        height: 460px;
+
+        background-image: url("/images/home_370.bmp");
+
+    }
+
+    .navbar {
+
+        font-size: 10px;
+        margin:0px;
+
+    }
+
+    .advanced-nav li .button-text {
+        padding :0px;
+        margin:0px;
+        width: 10px;
+        height: 20px;
+
+
+    }
+    .button-text span {
+        display: inline;
+      
+    }
+    
+
+    .advanced-nav ul li a .icon, 
+    span {
+
+        padding :0px;
+        margin:0px;
+        
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+    }
+
+       
+
+
+    .advanced-nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .advanced-nav li {
+        display: flex;
+        flex: 1 0 12em;
+
+
+    }
+
+    form {
+   
+        max-width: 200px;
+    }
+
+
+}
+
+@media screen and (min-width: 369px) and (max-width: 768px) {
+
+  
+
+    #myHome {
+
+
+
+        width: 768px;
+        height: 975px;
+
+        background-image: url("/images/home_770.bmp");
+
+    }
+
+    form {
+   
+        max-width: 400px;
+    }
+    
+
+}
+
+@media screen and (min-width: 769px) {
+  
+    #myHome {
+        width: 1600px;
+        height: 2100px;
+
+        background-image: url("/images/home_1600.bmp");
+
+    }
+
+    
+    form {
+   
+        max-width: 600px;
+    }
+
+
+}

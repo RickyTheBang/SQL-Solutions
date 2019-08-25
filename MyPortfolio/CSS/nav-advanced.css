@@ -1,0 +1,51 @@
+
+
+.advanced-nav ul   {
+    display: flex;
+   
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.advanced-nav li {
+    display: flex;       
+    flex: 1;
+  
+   
+}
+.advanced-nav ul li a  {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.icon {
+    font-size: 1.8em;
+    flex: 0 0 1.5em;
+}
+
+.icon .portrait {
+    height: 2em;
+    width: 2em;
+}
+
+.icon .myLogo{
+    height: 2em;
+    width: 2em;
+    color: white;
+
+}
+.button-text {
+    font-size: 1.2em;
+}
+
+.button-text span {
+    display: block;
+    font-size: 60%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
